@@ -2,6 +2,18 @@
 
 This project focuses on detecting bot accounts on Twitter using the TwiBot-20 dataset. We explore two different approaches: a Graph Neural Network (GNN) model and a Random Forest classifier. 
 
+### Affiliated Paper
+The affiliated paper of this repository, 'TwiBot-20: A Comprehensive Twitter Bot Detection Benchmark', is accepted at CIKM 2021.
+
+```
+@article{Feng2021TwiBot20AC,
+  title={TwiBot-20: A Comprehensive Twitter Bot Detection Benchmark},
+  author={Shangbin Feng and Herun Wan and Ningnan Wang and Jundong Li and Minnan Luo},
+  journal={Proceedings of the 30th ACM International Conference on Information \& Knowledge Management},
+  year={2021}
+}
+```
+
 ## Dataset
 
 The TwiBot-20 dataset is a comprehensive Twitter bot detection benchmark dataset. It includes a variety of features extracted from user profiles, tweets, and network information.
@@ -68,9 +80,15 @@ The GNN and Random Forest models are compared based on their performance on the 
 ![image](https://github.com/BusraZenbilci/CSE474-SocialNetworkAnalysis/assets/88310614/64a211a2-2bcb-4f22-a411-222cc78e53bb)
 
 
+
 ## Conclusion
 
-The Random Forest model shows higher accuracy and better precision, recall, and f1-score on the test set compared to the GNN model. This suggests that while GNNs can leverage relational information, the Random Forest model benefits more from the feature set used in this project.
+The GNN model shows a more nuanced understanding of the relational data in the TwiBot-20 dataset. While the Random Forest model demonstrates higher accuracy on the test set, it is evident that the GNN model is better suited for this task because it takes into account the network structure of the data. Each user is represented as a node, and the connections between users (edges) are effectively utilized by the GNN to improve bot detection.
+
+This relational aspect is crucial in social network analysis, where the interactions between users can provide significant insights into detecting bots. Although the Random Forest model excels in utilizing the provided features, the GNN's ability to incorporate the relational data makes it a more appropriate choice for this dataset. Future work could involve enhancing the GNN model with additional features or more complex architectures to further improve performance.
+
+
+
 
 
 
