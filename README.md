@@ -60,12 +60,12 @@ The GNN and Random Forest models are compared based on their performance on the 
 
 ### GNN Model Performance
 
-![image](https://github.com/BusraZenbilci/CSE474-SocialNetworkAnalysis/assets/88310614/17bb7f75-6247-4278-943e-be6c71cd83da)
+![image](https://github.com/BusraZenbilci/CSE474-SocialNetworkAnalysis/assets/88310614/6e6daa8c-5002-4abd-8643-f715533edee0)
 
 
 ### Random Forest Model Performance
 
-![image](https://github.com/BusraZenbilci/CSE474-SocialNetworkAnalysis/assets/88310614/535d8a3c-0650-4077-973d-c4ce2ed20879)
+![image](https://github.com/BusraZenbilci/CSE474-SocialNetworkAnalysis/assets/88310614/64a211a2-2bcb-4f22-a411-222cc78e53bb)
 
 
 ## Conclusion
