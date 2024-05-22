@@ -18,6 +18,12 @@ The affiliated paper of this repository, 'TwiBot-20: A Comprehensive Twitter Bot
 
 The TwiBot-20 dataset is a comprehensive Twitter bot detection benchmark dataset. It includes a variety of features extracted from user profiles, tweets, and network information.
 
+You could send an email to shangbin at cs.washington.edu with your institutional email address to apply for Access.
+# Contact: shangbin@cs.washington.edu
+
+Example dataset is indicated in the following link.
+https://botometer.osome.iu.edu/bot-repository/datasets/twibot-20/twibot20.json
+
 ### Features
 
 1. **User Profile Features:**
